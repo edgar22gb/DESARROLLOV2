@@ -1,0 +1,37 @@
+<table>
+<table class="top_16"cellpadding="10">
+  <tr>
+    <th>IDVERSION</th>
+    <th>NOMBRE</th>
+    
+  </tr>
+  
+  <tr>
+	<?php
+	 
+	$tablaVersion=new Application_Model_DbTable_Version();
+	$ver=$tablaVersion->fetchAll();
+	//$ver=$this->verproyectos;
+	
+	
+	foreach ($ver as $fila)
+	{
+		echo"<td>".$fila->idversion."</td>";
+		echo"<td>".$fila->nombre."</tr>";
+		
+		
+		
+		
+	}
+
+?>
+
+</table>
+</tr>
+
+	
+	
+    
+
+
+

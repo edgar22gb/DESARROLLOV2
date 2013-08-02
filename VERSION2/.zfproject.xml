@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<projectProfile type="default" version="1.11.11">
+  <projectDirectory>
+    <projectProfileFile filesystemName=".zfproject.xml"/>
+    <applicationDirectory classNamePrefix="Application_">
+      <apisDirectory enabled="false"/>
+      <configsDirectory>
+        <applicationConfigFile type="ini"/>
+      </configsDirectory>
+      <controllersDirectory>
+        <controllerFile controllerName="Index">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="addshell"/>
+          <actionMethod actionName="proyectos"/>
+          <actionMethod actionName="desarrollador"/>
+          <actionMethod actionName="recursos"/>
+          <actionMethod actionName="versiones"/>
+          <actionMethod actionName="version"/>
+          <actionMethod actionName="addversion"/>
+          <actionMethod actionName="addcliente"/>
+          <actionMethod actionName="registraProyect"/>
+          <actionMethod actionName="regproyecto"/>
+          <actionMethod actionName="registraproyecto"/>
+          <actionMethod actionName="regproye"/>
+          <actionMethod actionName="regproyectos"/>
+          <actionMethod actionName="reproyect"/>
+          <actionMethod actionName="repro"/>
+          <actionMethod actionName="verproyectos"/>
+          <actionMethod actionName="conproyect"/>
+          <actionMethod actionName="consulDesa"/>
+          <actionMethod actionName="consultaDesa"/>
+          <actionMethod actionName="consultaRecu"/>
+          <actionMethod actionName="consultaVers"/>
+          <actionMethod actionName="consultaClien"/>
+        </controllerFile>
+        <controllerFile controllerName="Error"/>
+        <controllerFile controllerName="Proyectos">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="RegProyect">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Micontrolador">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+      </controllersDirectory>
+      <formsDirectory>
+        <formFile formName="RegistrarD"/>
+        <formFile formName="Shell"/>
+        <formFile formName="ComandosShell"/>
+        <formFile formName="Desarrollador"/>
+        <formFile formName="Recursos"/>
+        <formFile formName="Versiones"/>
+        <formFile formName="Version"/>
+        <formFile formName="Cliente"/>
+        <formFile formName="Registraproyecto"/>
+      </formsDirectory>
+      <layoutsDirectory>
+        <layoutScriptsDirectory>
+          <layoutScriptFile layoutName="layout"/>
+        </layoutScriptsDirectory>
+      </layoutsDirectory>
+      <modelsDirectory>
+        <modelFile modelName="Registrar"/>
+        <dbTableDirectory>
+          <dbTableFile dbTableName="Proyectos"/>
+          <dbTableFile dbTableName="Proyecto"/>
+          <dbTableFile dbTableName="Proyec"/>
+          <dbTableFile dbTableName="Proyect"/>
+          <dbTableFile dbTableName="Proye"/>
+          <dbTableFile dbTableName="Proy"/>
+          <dbTableFile dbTableName="Pro"/>
+          <dbTableFile dbTableName="Desarrolladores"/>
+          <dbTableFile dbTableName="Recurso"/>
+          <dbTableFile dbTableName="Version"/>
+          <dbTableFile dbTableName="Clientes"/>
+        </dbTableDirectory>
+        <modelFile modelName="Proyectos"/>
+        <modelFile modelName="Proyecto"/>
+        <modelFile modelName="Proyect"/>
+        <modelFile modelName="Proyec1"/>
+        <modelFile modelName="ProyectoMapper"/>
+        <modelFile modelName="Proyecmapper"/>
+        <modelFile modelName="Proyec"/>
+        <modelFile modelName="Proyecto1"/>
+        <modelFile modelName="Proyectos1"/>
+        <modelFile modelName="Proye"/>
+        <modelFile modelName="Registro"/>
+        <modelFile modelName="RegistroProye"/>
+        <modelFile modelName="Reproyec"/>
+        <modelFile modelName="Reproyecmapper"/>
+        <modelFile modelName="Desarrollador"/>
+        <modelFile modelName="Regrecurso"/>
+        <modelFile modelName="Versiones"/>
+        <modelFile modelName="Clientes"/>
+        <modelFile modelName="Consultas"/>
+      </modelsDirectory>
+      <modulesDirectory enabled="false"/>
+      <viewsDirectory>
+        <viewScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Error">
+            <viewScriptFile forActionName="error"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="addshell"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Shell">
+            <viewScriptFile forActionName="addshell"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="proyectos"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="desarrollador"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="recursos"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="versiones"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="version"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="addversion"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="addcliente"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="registraProyect"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="regproyecto"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Proyectos">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="RegProyect">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="registraproyecto"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Micontrolador">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="regproye"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="regproyectos"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="reproyect"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="repro"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="verproyectos"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="conproyect"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="consulDesa"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="consultaDesa"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="consultaRecu"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="consultaVers"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="consultaClien"/>
+          </viewControllerScriptsDirectory>
+        </viewScriptsDirectory>
+        <viewHelpersDirectory/>
+        <viewFiltersDirectory enabled="false"/>
+      </viewsDirectory>
+      <bootstrapFile filesystemName="Bootstrap.php"/>
+    </applicationDirectory>
+    <dataDirectory enabled="false">
+      <cacheDirectory enabled="false"/>
+      <searchIndexesDirectory enabled="false"/>
+      <localesDirectory enabled="false"/>
+      <logsDirectory enabled="false"/>
+      <sessionsDirectory enabled="false"/>
+      <uploadsDirectory enabled="false"/>
+    </dataDirectory>
+    <docsDirectory>
+      <file filesystemName="README.txt"/>
+    </docsDirectory>
+    <libraryDirectory>
+      <zfStandardLibraryDirectory enabled="false"/>
+    </libraryDirectory>
+    <publicDirectory>
+      <publicStylesheetsDirectory enabled="false"/>
+      <publicScriptsDirectory enabled="false"/>
+      <publicImagesDirectory enabled="false"/>
+      <publicIndexFile filesystemName="index.php"/>
+      <htaccessFile filesystemName=".htaccess"/>
+    </publicDirectory>
+    <projectProvidersDirectory enabled="false"/>
+    <temporaryDirectory enabled="false"/>
+    <testsDirectory>
+      <testPHPUnitConfigFile filesystemName="phpunit.xml"/>
+      <testPHPUnitBootstrapFile filesystemName="bootstrap.php"/>
+      <testApplicationDirectory>
+        <testApplicationControllerDirectory>
+          <testApplicationControllerFile forControllerName="Index"/>
+        </testApplicationControllerDirectory>
+      </testApplicationDirectory>
+      <testLibraryDirectory/>
+    </testsDirectory>
+  </projectDirectory>
+</projectProfile>

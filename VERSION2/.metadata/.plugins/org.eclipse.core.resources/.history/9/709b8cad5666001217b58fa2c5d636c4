@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Plataforma de Desarrollo de Software</title>
+<link type="text/css" href="/styles/960_16_col.css" rel="stylesheet"/>
+<link type="text/css" href="/styles/estilos_evidencias.css"rel="stylesheet"/>
+
+
+
+ 
+</head>
+<body class="evi fondo">
+	<div class="container_16">	
+	<div class="grid_1 evi logo_evidencia size_logo"></div>
+		<div>
+			<div>
+				<h1 class="evi letra_principal top_8">Plataforma de Desarrollo de
+					Software</h1>
+					</div>
+					
+	</div>
+	
+	<div class="grid_1">
+		<div id="menu">
+		<a class="evi letra_menu">OPCIONES </a>
+
+			<ul>
+				<li class="nivel1 primera"><a class="nivel1" href="/index.php/index/repro">Proyectos</a>
+				
+				</li>
+				
+				<li class="nivel1"><a class="nivel1" href="/index.php/index/desarrollador">Desarrolladores</a>
+				
+				<li class="nivel1"><a class="nivel1" href="/index.php/index/recursos">Recursos</a>
+				</li>
+				<li class="nivel1"><a class="nivel1" href="/index.php/index/addversion">Versiones</a>
+				</li>
+				
+				<li class="nivel1"><a class="nivel1" href="/index.php/index/addcliente">Clientes</a>
+				</li>				
+				
+								
+				<li class="nivel1"><a class="nivel1" href="/index.php/index/addshell">Terminal</a>
+				</li>
+				</ul>
+				
+				</div>
+	
+	</div>
+		<?php header ('location:localhost');?>
+	<div class="grid_1 push_4 top_18">
+	<?php echo $this->layout()->content; ?>
+
+	</div>
+	
+</div>
+
+</div>
+</body>
+</html>

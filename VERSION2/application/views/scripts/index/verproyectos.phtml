@@ -1,0 +1,39 @@
+<table>
+<table class="top_16"cellpadding="10">
+  <tr>
+    <th>IDPROYECTO</th>
+    <th>NOMBRE</th>
+    <th>FINICIO</th>
+    <th>FTERMINO</th>
+  </tr>
+  
+  <tr>
+	<?php 
+	$tablaproyecto=new Application_Model_DbTable_Pro();
+	$ver=$tablaproyecto->fetchAll();
+	//$ver=$this->verproyectos;
+	
+	
+	foreach ($ver as $fila)
+	{
+		echo"<td>".$fila->idproyecto."</td>";
+		echo"<td>".$fila->nombre."</td>";
+		echo"<td>".$fila->finicio."</td>";
+		echo"<td>".$fila->ftermino."</tr>";
+		
+		
+		
+		
+	}
+
+?>
+
+</table>
+</tr>
+
+	
+	
+    
+
+
+

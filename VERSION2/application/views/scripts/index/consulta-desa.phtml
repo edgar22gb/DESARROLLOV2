@@ -1,0 +1,36 @@
+<table>
+<table class="top_16"cellpadding="08">
+  <tr>
+    <th>IDDESARROLLADOR</th>
+    <th>NOMBRE</th>
+    
+  </tr>
+  
+  <tr>
+	<?php 
+	$tablaDesarrolladores=new Application_Model_DbTable_Desarrolladores;
+	$ver=$tablaDesarrolladores->fetchAll();
+	//$ver=$this->verproyectos;
+	
+	
+	foreach ($ver as $fila)
+	{
+		echo"<td>".$fila->iddesarrollador."</td>";
+		echo"<td>".$fila->nombre."</tr>";
+		
+		
+		
+		
+	}
+
+?>
+
+</table>
+</tr>
+
+	
+	
+    
+
+
+

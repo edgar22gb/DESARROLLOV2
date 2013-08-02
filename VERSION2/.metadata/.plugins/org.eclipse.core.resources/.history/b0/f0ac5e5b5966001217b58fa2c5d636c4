@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" href="public/styles/960_16_col.css" rel="stylesheet">
+<link type="text/css" href="public/styles/estilos_evidencias" rel="stylesheet">
+</head>
+<body>
+	<div id="main-container">
+
+		<div id="form-container">
+		<h1>Tareas de shell</h1>
+		<div class="grid_9" style="height: 200px; background-color: white">
+			<?php
+			
+			     
+			 
+			echo  $this->id.":</br>->";
+			
+			echo system($this->id); ?>
+			
+		</div>
+			<?php  
+			echo $this->textarea;			
+			?>
+			
+
+
+		</div>
+	</div>
+
+</body>
+</html>

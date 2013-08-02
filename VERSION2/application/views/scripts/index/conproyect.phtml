@@ -1,0 +1,23 @@
+
+
+
+
+<?php 
+$tabladesa=new Application_Model_DbTable_Desarrolladores();
+	$ver=$tabladesa->fetchAll();
+	$ver=$this->verproyectos;
+	foreach ($ver as  $fila)
+	{
+		//echo $fila->iddesarrollador."\n";
+	}
+?>
+<table>
+  <tr>
+    <th>iddesarrollador</th>
+    <th>nombre</th>
+  </tr>
+  <tr>
+    <td><?php echo $fila->iddesarrollador."\n";?></td>
+    <td><?php echo $fila->nombre."\n";?></td>
+  </tr>
+</table>

@@ -1,0 +1,39 @@
+<table>
+<table class="top_16"cellpadding="10">
+  <tr>
+    <th>IDCLIENTE</th>
+    <th>NOMBRE</th>
+    <th>DIRECCION</th>
+    <th>TELEFONO</th>
+  </tr>
+  
+  <tr>
+	<?php 
+	$tablaclientes=new Application_Model_DbTable_Clientes();
+	$ver=$tablaclientes->fetchAll();
+	//$ver=$this->verproyectos;
+	
+	
+	foreach ($ver as $fila)
+	{
+		echo"<td>".$fila->idcliente."</td>";
+		echo"<td>".$fila->nombre."</td>";
+		echo"<td>".$fila->direccion."</td>";
+		echo"<td>".$fila->telefono."</tr>";
+		
+		
+		
+		
+	}
+
+?>
+
+</table>
+</tr>
+
+	
+	
+    
+
+
+
